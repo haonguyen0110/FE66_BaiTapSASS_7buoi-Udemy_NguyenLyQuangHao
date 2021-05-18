@@ -1,0 +1,91 @@
+#intro{
+    padding: 2rem 16rem;
+    .intro__content{
+        padding: 25% 2rem;
+        background-color: #f7f8fa;
+        h6{
+            font-size: 1.3rem;
+        }
+        p{
+            font-size: 1.1rem;
+        }
+    }
+    .mini-nav{
+        .nav{
+            position: relative;
+            &::after{
+                    content: "";
+                    height: 1px;
+                    width: 100%;
+                    background-color:#dedfe0 ;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+            
+        }
+    }
+        .tab-content{
+            margin-top: 1.5rem;
+        }  
+        .nav-link{
+            color: black!important;
+            position: relative;
+           
+            }
+        }
+        .nav-item .active{
+            background-color:white!important;
+            &::after{
+                content: "";
+                height: 5px;
+                width: 100%;
+                background-color:#007791 ;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+        }
+    }
+    .tab__list{
+        
+        h5{
+            font-size: 1rem;
+        }
+        p{
+            font-size: 0.8rem;
+        }
+        .fa-star{
+            color: #dedfe0;
+            font-size: 0.8rem;
+        }
+        .checked {
+            color: orange;
+          }
+          .price{
+              text-align: right;
+              .new{
+                  font-weight: bold;
+                  font-size: 1.2rem;
+              }
+              .old{
+                  font-size: 0.8rem;
+                  margin-right: 0.5rem;
+                  text-decoration: line-through;
+              }
+          }
+          .card__img{
+            position: relative;
+            transition: all 0.3s;
+            &:hover .overlay{
+                opacity: 100;
+            }
+        }
+          .overlay{
+              @include overlay;
+          }
+          .bestseller{
+             @include bestseller;
+              }
+          
+              
+          }
+    }

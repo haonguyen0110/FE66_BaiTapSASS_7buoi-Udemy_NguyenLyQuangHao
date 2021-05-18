@@ -1,0 +1,47 @@
+footer{
+    padding: 2rem 16rem;
+    margin: 0 auto;
+    position: relative;
+
+    ul{
+        list-style: none;
+        font-size: 0.8rem;
+        span{
+            color: #007791;
+            font-weight: bold;
+        }
+        li{
+            margin: 0.5rem;
+            a{
+                color: #52b3e7;
+            }
+            
+        }
+    }
+    .footer__bot{
+        .bot__left{
+            img{
+                width: 15%;
+            }
+            p{
+                font-size: 0.8rem;
+                margin-left: 1rem;
+                padding-top: 0.5rem;
+            }
+        }
+      .bot__right{
+          li{
+              display: inline;
+          }
+      }
+    }
+    &::after{
+        position: absolute;
+        content: "";
+        height: 8px;
+        width: 100%;
+        background-color: #ec5252;
+        bottom: 0;
+        left: 0;
+    }
+}

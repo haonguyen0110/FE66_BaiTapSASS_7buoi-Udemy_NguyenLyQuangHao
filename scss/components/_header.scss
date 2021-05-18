@@ -1,0 +1,29 @@
+header {
+  .left {
+    display: flex;
+    align-items: center;
+
+    .logo {
+      flex-grow: 1;
+      img {
+        width: 200px;
+      }
+    }
+
+    .categories {
+      flex-grow: 1;
+    }
+
+    @include mForm();
+  }
+
+  .right {
+    a {
+      color: black !important;
+    }
+
+    .btn-login {
+      border: 1px solid black;
+    }
+  }
+}

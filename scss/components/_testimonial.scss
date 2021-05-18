@@ -1,0 +1,46 @@
+#testi{
+    padding: 3rem 16rem;
+    background-color: #f7f8fa;
+    h5{
+        font-size: 1.5rem ;
+        padding-left: 4rem;
+        margin-bottom: 2rem;
+    }
+    
+    
+    span{
+        margin-left: 1rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .testi__info{
+        margin-bottom: 1rem;
+        img{
+            border-radius: 50%!important;
+            width: 20%;
+        }
+    }
+    .testi__item{
+        padding: 6rem ;
+      
+        
+    }
+    .trust{
+        text-align: center;
+        font-size: 0.8rem;
+        color: #888;
+        margin: 2rem 0;
+    }
+   
+    .testi__signup{
+        text-align: center;
+        margin-top: 3rem;
+        line-height: 2;
+        h6{
+            font-size: 1.3rem;
+        }
+        .signup__item{
+            padding: 0 7rem;
+        }
+    }
+    }
